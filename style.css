@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: rgb(112,75,149);
+    background: linear-gradient(180deg, rgba(112,75,149,1) 0%, rgba(25,147,127,1) 50%, rgba(30,6,52,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.container {
+    background: rgb(119,75,149);
+    background: linear-gradient(349deg, rgba(119,75,149,1) 0%, rgba(80,25,147,1) 50%, rgba(30,6,52,1) 100%);
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    font-size: 46px;
+    width: 36%;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.min-sec {
+    display: flex;
+    width: 100%;
+    color: rgb(98, 239, 239);
+}
+
+.minute,
+.second,
+.millisecond {
+    text-align: center;
+    width: 60px;
+}
+
+.minute {
+    margin-right: 2px;
+}
+
+.buttons {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.start,
+.stop,
+.reset {
+    font-size: 24px;
+    display: block;
+    padding: 10px 35px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+}
+.start:hover,
+.stop:hover,
+.reset:hover {
+    background-color: bisque;
+}
+
+.save {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+    height: 30px;
+}
+
+.save div {
+    font-size: 19px;
+    color: rgb(131, 232, 236);
+}
